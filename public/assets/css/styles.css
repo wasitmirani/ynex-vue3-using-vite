@@ -2,13 +2,13 @@
 [Master Stylesheet]
 
 Project                            :   YNEX - HTML5 Bootstrap Admin Template
-Create Date                        :   
-Author & Copyright Ownership       :   Spruko Technologies Private Limited 
+Create Date                        :
+Author & Copyright Ownership       :   Spruko Technologies Private Limited
 Author URL                         :   https://themeforest.net/user/spruko
 Support	                           :   https://support.spruko.com/
 License Details                    :   https://spruko.com/licenses-details
 ------------------------------------------------------------------*/
-/* Table Of Content 
+/* Table Of Content
 variables
 switcher
 accordion
@@ -8901,7 +8901,7 @@ caption {
   z-index: 1;
 }
 .authentication.coming-soon .authentication-cover, .authentication.under-maintenance .authentication-cover {
-  background-image: url(../images/media/media-19.jpg);
+  background-image: url(/assets/images/media/media-19.jpg);
 }
 .authentication.coming-soon .authentication-cover .aunthentication-cover-content, .authentication.under-maintenance .authentication-cover .aunthentication-cover-content {
   width: 100%;
