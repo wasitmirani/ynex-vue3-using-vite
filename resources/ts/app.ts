@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import './registerServiceWorker'
+// import './registerServiceWorker'
 import { createPinia } from 'pinia'
 import App from "./vue/App.vue";
 import router from "./router";

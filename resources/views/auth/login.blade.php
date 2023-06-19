@@ -34,14 +34,29 @@
     <form method="POST" action="{{ route('login') }}">
         @csrf
                     <div class="col-xl-12 mt-0"> <label for="signin-username" class="form-label text-default">User
-                            Name</label> <input type="text" class="form-control form-control-lg" id="signin-username"
-                            placeholder="user name"> </div>
+                            Name</label>
+                            <input type="email" class="form-control form-control-lg  @error('email') is-invalid @enderror" id="signin-username"
+                            placeholder="Enter your email or username"   value="{{ old('email') }}" autofocus>
+
+                            @error('email')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                           @enderror
+                            </div>
                     <div class="col-xl-12 mb-3"> <label for="signin-password"
                             class="form-label text-default d-block">Password<a href="reset-password-cover.html"
                                 class="float-end text-danger">Forget password
                                 ?</a></label>
-                        <div class="input-group"> <input type="password" class="form-control form-control-lg"
-                                id="signin-password" placeholder="password"> <button class="btn btn-light" type="button"
+                        <div class="input-group">
+                        <input type="password" class="form-control form-control-lg @error('password') is-invalid @enderror"
+                                id="signin-password" placeholder="password">
+                                @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
+                                <button class="btn btn-light" type="button"
                                 onclick="createpassword('signin-password',this)" id="button-addon2"><i
                                     class="ri-eye-off-line align-middle"></i></button>
                         </div>

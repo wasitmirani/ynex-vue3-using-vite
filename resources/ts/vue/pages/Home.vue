@@ -5,10 +5,10 @@
                 <div class="header-content-left"> <!-- Start::header-element -->
                     <div class="header-element">
                         <div class="horizontal-logo"> <a href="index.html" class="header-logo"> <img
-                                    src="/assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">
-                                <img src="/assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
-                                <img src="/assets/images/brand-logos/desktop-dark.png" alt="logo"
-                                    class="desktop-dark"> <img src="/assets/images/brand-logos/toggle-dark.png"
+                                    src="@/assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">
+                                <img src="@/assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
+                                <img src="@/assets/images/brand-logos/desktop-dark.png" alt="logo"
+                                    class="desktop-dark"> <img src="@/assets/images/brand-logos/toggle-dark.png"
                                     alt="logo" class="toggle-dark"> </a> </div>
                     </div> <!-- End::header-element --> <!-- Start::header-element -->
                     <div class="header-element"> <!-- Start::header-link --> <a aria-label="Hide Sidebar"
@@ -23,32 +23,32 @@
                     <!-- End::header-element --> <!-- Start::header-element -->
                     <div class="header-element country-selector"> <!-- Start::header-link|dropdown-toggle --> <a
                             href="javascript:void(0);" class="header-link dropdown-toggle" data-bs-auto-close="outside"
-                            data-bs-toggle="dropdown"> <img src="/assets/images/flags/us_flag.jpg" alt="img"
+                            data-bs-toggle="dropdown"> <img src="@/assets/images/flags/us_flag.jpg" alt="img"
                                 class="rounded-circle"> </a> <!-- End::header-link|dropdown-toggle -->
                         <ul class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
                             <li> <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"> <span
                                         class="avatar avatar-xs lh-1 me-2"> <img
-                                            src="/assets/images/flags/us_flag.jpg" alt="img"> </span> English </a>
+                                            src="@/assets/images/flags/us_flag.jpg" alt="img"> </span> English </a>
                             </li>
                             <li> <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"> <span
                                         class="avatar avatar-xs lh-1 me-2"> <img
-                                            src="/assets/images/flags/spain_flag.jpg" alt="img"> </span> Spanish </a>
+                                            src="@/assets/images/flags/spain_flag.jpg" alt="img"> </span> Spanish </a>
                             </li>
                             <li> <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"> <span
                                         class="avatar avatar-xs lh-1 me-2"> <img
-                                            src="/assets/images/flags/french_flag.jpg" alt="img"> </span> French </a>
+                                            src="@/assets/images/flags/french_flag.jpg" alt="img"> </span> French </a>
                             </li>
                             <li> <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"> <span
                                         class="avatar avatar-xs lh-1 me-2"> <img
-                                            src="/assets/images/flags/germany_flag.jpg" alt="img"> </span> German </a>
+                                            src="@/assets/images/flags/germany_flag.jpg" alt="img"> </span> German </a>
                             </li>
                             <li> <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"> <span
                                         class="avatar avatar-xs lh-1 me-2"> <img
-                                            src="/assets/images/flags/italy_flag.jpg" alt="img"> </span> Italian </a>
+                                            src="@/assets/images/flags/italy_flag.jpg" alt="img"> </span> Italian </a>
                             </li>
                             <li> <a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"> <span
                                         class="avatar avatar-xs lh-1 me-2"> <img
-                                            src="/assets/images/flags/russia_flag.jpg" alt="img"> </span> Russian </a>
+                                            src="@/assets/images/flags/russia_flag.jpg" alt="img"> </span> Russian </a>
                             </li>
                         </ul>
                     </div> <!-- End::header-element --> <!-- Start::header-element -->
@@ -77,7 +77,7 @@
                             <ul class="list-unstyled mb-0" id="header-cart-items-scroll">
                                 <li class="dropdown-item">
                                     <div class="d-flex align-items-start cart-dropdown-item"> <img
-                                            src="/assets/images/ecommerce/jpg/1.jpg" alt="img"
+                                            src="@/assets/images/ecommerce/jpg/1.jpg" alt="img"
                                             class="avatar avatar-sm avatar-rounded br-5 me-3">
                                         <div class="flex-grow-1">
                                             <div class="d-flex align-items-start justify-content-between mb-0">
@@ -100,7 +100,7 @@
                                 </li>
                                 <li class="dropdown-item">
                                     <div class="d-flex align-items-start cart-dropdown-item"> <img
-                                            src="/assets/images/ecommerce/jpg/3.jpg" alt="img"
+                                            src="@/assets/images/ecommerce/jpg/3.jpg" alt="img"
                                             class="avatar avatar-sm avatar-rounded br-5 me-3">
                                         <div class="flex-grow-1">
                                             <div class="d-flex align-items-start justify-content-between mb-0">
@@ -124,7 +124,7 @@
                                 </li>
                                 <li class="dropdown-item">
                                     <div class="d-flex align-items-start cart-dropdown-item"> <img
-                                            src="/assets/images/ecommerce/jpg/5.jpg" alt="img"
+                                            src="@/assets/images/ecommerce/jpg/5.jpg" alt="img"
                                             class="avatar avatar-sm avatar-rounded br-5 me-3">
                                         <div class="flex-grow-1">
                                             <div class="d-flex align-items-start justify-content-between mb-0">
@@ -146,7 +146,7 @@
                                 </li>
                                 <li class="dropdown-item">
                                     <div class="d-flex align-items-start cart-dropdown-item"> <img
-                                            src="/assets/images/ecommerce/jpg/4.jpg" alt="img"
+                                            src="@/assets/images/ecommerce/jpg/4.jpg" alt="img"
                                             class="avatar avatar-sm avatar-rounded br-5 me-3">
                                         <div class="flex-grow-1">
                                             <div class="d-flex align-items-start justify-content-between mb-0">
@@ -169,7 +169,7 @@
                                 </li>
                                 <li class="dropdown-item">
                                     <div class="d-flex align-items-start cart-dropdown-item"> <img
-                                            src="/assets/images/ecommerce/jpg/6.jpg" alt="img"
+                                            src="@/assets/images/ecommerce/jpg/6.jpg" alt="img"
                                             class="avatar avatar-sm avatar-rounded br-5 me-3">
                                         <div class="flex-grow-1">
                                             <div class="d-flex align-items-start justify-content-between mb-0">
@@ -344,55 +344,55 @@
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/figma.png" alt=""> </span> <span
+                                                        src="@/assets/images/apps/figma.png" alt=""> </span> <span
                                                     class="d-block fs-12">Figma</span> </div>
                                         </a> </div>
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/microsoft-powerpoint.png" alt="">
+                                                        src="@/assets/images/apps/microsoft-powerpoint.png" alt="">
                                                 </span> <span class="d-block fs-12">Power Point</span> </div>
                                         </a> </div>
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/microsoft-word.png" alt=""> </span>
+                                                        src="@/assets/images/apps/microsoft-word.png" alt=""> </span>
                                                 <span class="d-block fs-12">MS Word</span> </div>
                                         </a> </div>
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/calender.png" alt=""> </span> <span
+                                                        src="@/assets/images/apps/calender.png" alt=""> </span> <span
                                                     class="d-block fs-12">Calendar</span> </div>
                                         </a> </div>
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/sketch.png" alt=""> </span> <span
+                                                        src="@/assets/images/apps/sketch.png" alt=""> </span> <span
                                                     class="d-block fs-12">Sketch</span> </div>
                                         </a> </div>
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/google-docs.png" alt=""> </span>
+                                                        src="@/assets/images/apps/google-docs.png" alt=""> </span>
                                                 <span class="d-block fs-12">Docs</span> </div>
                                         </a> </div>
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/google.png" alt=""> </span> <span
+                                                        src="@/assets/images/apps/google.png" alt=""> </span> <span
                                                     class="d-block fs-12">Google</span> </div>
                                         </a> </div>
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/translate.png" alt=""> </span> <span
+                                                        src="@/assets/images/apps/translate.png" alt=""> </span> <span
                                                     class="d-block fs-12">Translate</span> </div>
                                         </a> </div>
                                     <div class="col-4"> <a href="javascript:void(0);">
                                             <div class="text-center p-3 related-app"> <span
                                                     class="avatar avatar-sm avatar-rounded"> <img
-                                                        src="/assets/images/apps/google-sheets.png" alt=""> </span>
+                                                        src="@/assets/images/apps/google-sheets.png" alt=""> </span>
                                                 <span class="d-block fs-12">Sheets</span> </div>
                                         </a> </div>
                                 </div>
@@ -412,7 +412,7 @@
                             class="header-link dropdown-toggle" id="mainHeaderProfile" data-bs-toggle="dropdown"
                             data-bs-auto-close="outside" aria-expanded="false">
                             <div class="d-flex align-items-center">
-                                <div class="me-sm-2 me-0"> <img src="/assets/images/faces/9.jpg" alt="img" width="32"
+                                <div class="me-sm-2 me-0"> <img src="@/assets/images/faces/9.jpg" alt="img" width="32"
                                         height="32" class="rounded-circle"> </div>
                                 <div class="d-sm-block d-none">
                                     <p class="fw-semibold mb-0 lh-1">Json Taylor</p><span
@@ -448,10 +448,10 @@
         </header> <!-- /app-header --> <!-- Start::app-sidebar -->
         <aside class="app-sidebar sticky" id="sidebar"> <!-- Start::main-sidebar-header -->
             <div class="main-sidebar-header"> <a href="index.html" class="header-logo"> <img
-                        src="/assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo"> <img
-                        src="/assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo"> <img
-                        src="/assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark"> <img
-                        src="/assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark"> </a> </div>
+                        src="@/assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo"> <img
+                        src="@/assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo"> <img
+                        src="@/assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark"> <img
+                        src="@/assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark"> </a> </div>
             <!-- End::main-sidebar-header --> <!-- Start::main-sidebar -->
             <div class="main-sidebar" id="sidebar-scroll"> <!-- Start::nav -->
                 <nav class="main-menu-container nav nav-pills flex-column sub-open">
@@ -975,7 +975,7 @@
                                                     <div class="d-flex align-items-top flex-wrap">
                                                         <div class="me-2"> <span
                                                                 class="avatar avatar-sm avatar-rounded"> <img
-                                                                    src="/assets/images/faces/10.jpg" alt=""> </span>
+                                                                    src="@/assets/images/faces/10.jpg" alt=""> </span>
                                                         </div>
                                                         <div class="flex-fill">
                                                             <p class="fw-semibold mb-0">Michael Jordan</p><span
@@ -1000,7 +1000,7 @@
                                                     <div class="d-flex align-items-top flex-wrap">
                                                         <div class="me-2"> <span
                                                                 class="avatar avatar-sm avatar-rounded"> <img
-                                                                    src="/assets/images/faces/12.jpg" alt=""> </span>
+                                                                    src="@/assets/images/faces/12.jpg" alt=""> </span>
                                                         </div>
                                                         <div class="flex-fill">
                                                             <p class="fw-semibold mb-0">Randy Origoan</p><span
@@ -1261,7 +1261,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center fw-semibold"> <span
                                                                     class="avatar avatar-sm me-2 avatar-rounded"> <img
-                                                                        src="/assets/images/faces/4.jpg" alt="img">
+                                                                        src="@/assets/images/faces/4.jpg" alt="img">
                                                                 </span>Mayor Kelly </div>
                                                         </td>
                                                         <td>Manufacture</td>
@@ -1286,7 +1286,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center fw-semibold"> <span
                                                                     class="avatar avatar-sm me-2 avatar-rounded"> <img
-                                                                        src="/assets/images/faces/15.jpg" alt="img">
+                                                                        src="@/assets/images/faces/15.jpg" alt="img">
                                                                 </span>Andrew Garfield </div>
                                                         </td>
                                                         <td>Development</td>
@@ -1311,7 +1311,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center fw-semibold"> <span
                                                                     class="avatar avatar-sm me-2 avatar-rounded"> <img
-                                                                        src="/assets/images/faces/11.jpg" alt="img">
+                                                                        src="@/assets/images/faces/11.jpg" alt="img">
                                                                 </span>Simon Cowel </div>
                                                         </td>
                                                         <td>Service</td>
@@ -1336,7 +1336,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center fw-semibold"> <span
                                                                     class="avatar avatar-sm me-2 avatar-rounded"> <img
-                                                                        src="/assets/images/faces/8.jpg" alt="img">
+                                                                        src="@/assets/images/faces/8.jpg" alt="img">
                                                                 </span>Mirinda Hers </div>
                                                         </td>
                                                         <td>Marketing</td>
@@ -1360,7 +1360,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center fw-semibold"> <span
                                                                     class="avatar avatar-sm me-2 avatar-rounded"> <img
-                                                                        src="/assets/images/faces/9.jpg" alt="img">
+                                                                        src="@/assets/images/faces/9.jpg" alt="img">
                                                                 </span>Jacob Smith </div>
                                                         </td>
                                                         <td>Social Plataform</td>
@@ -1765,7 +1765,7 @@
 </template>
 
 <script>
-  
+
 
 
 export default {
